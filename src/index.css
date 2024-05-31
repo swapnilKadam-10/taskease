@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: rgb(246, 244, 241);
+}
+
+ i.bi-pencil-square{
+  font-size: 18px;
+  color: #1363DF;
+  cursor: pointer;
+}
+
+ i.bi-trash{
+  font-size: 18px;
+  color: #D82148;
+  cursor: pointer;
+}
