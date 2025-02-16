@@ -8,9 +8,11 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
+  
   const [taskList, setTasklist] = useState(
     JSON.parse(localStorage.getItem("tasklist")) || []
   );
+
 
   useEffect(() => {
     localStorage.setItem("tasklist", JSON.stringify(taskList));
