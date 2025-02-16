@@ -46,20 +46,20 @@ const AddTask = ({ taskList, setTasklist, task, setTask }) => {
         <input
           type="text"
           name="task"
-          placeholder=" add task"
+          placeholder="Add task"
           autoComplete="off"
           maxLength="25"
           value={task.name || ""}
           onChange={(e) => setTask({ ...task, name: e.target.value })}
-          className="border h-9 sm:w-80 rounded-md dark:bg-slate-500 dark:text-white"
+          className="border h-9 sm:w-80 rounded-md dark:bg-slate-500 dark:text-white p-5"
         />
-        <button className="border ml-3 px-6 py-1 rounded-md bg-emerald-700 text-white text-lg ">
+        <button className="border ml-3 px-6 py-1 rounded-md bg-blue-600 text-white text-lg ">
           {task.id ? "Update" : "Add"}
         </button>
       </form>
       <div className="flex flex-col">
         {isempty ? (
-          <p className="text-sm text-yellow-400 ">
+          <p className="text-lg text-red-400 ">
             *Please enter the valid data.
           </p>
         ) : (
