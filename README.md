@@ -1,8 +1,39 @@
-# React + Vite
+# TaskEase - To-Do List Web Application 🚀✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskEase is a simple to-do list web application built using React, with data persistence via local storage. This app allows users to add new tasks and update existing ones.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Add new tasks
+- ✏️ Update existing tasks
+- 💾 Data persistence using local storage
+
+## 🛠 Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/swapnilKadam-10/taskease
+
+2. Navigate to the project directory:
+   ```sh
+   cd taskease
+
+3. Install dependencies:
+   ```sh
+   npm install
+
+## 🚀 Usage
+Start the development server:
+  ```sh
+  npm run dev
+  ```
+Open your browser and go to http://localhost:3000/ to use the app.
+
+## 🏗 Technologies Used
+- React.js
+- Local Storage (for data persistence)
+
+## 📜 License
+This project is licensed under the MIT License.
+
+### Happy coding! 🚀🎉💻
